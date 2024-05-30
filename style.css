@@ -1,0 +1,145 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: hsl(0, 0%, 96%);
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 2rem 0;
+}
+
+header .logo {
+    float: left;
+    margin-left: 2rem;
+    font-size: 2rem;
+
+}
+
+header nav {
+    float: right;
+    margin-right: 2srem;
+}
+
+header nav ul {
+    list-style: none;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 1rem;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+#home {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 4rem 0;
+    background-color: #fff;
+}
+
+.intro {
+    width: 50%;
+}
+
+.intro h1 {
+    font-size: 3rem;
+    color: #333;
+}
+
+.intro p {
+    font-size: 1.5rem;
+    color: #777;
+}
+
+.details span {
+    display: inline-block;
+    margin: 0.5rem;
+    padding: 0.5rem 1rem;
+    background-color: #333;
+    color: #fff;
+    border-radius: 5px;
+}
+
+.buttons .btn {
+    display: inline-block;
+    margin: 1rem 0.5rem;
+    padding: 1rem 2rem;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.profile-pic img {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    border: 5px solid #333;
+}
+
+#about {
+    padding: 4rem 0;
+}
+
+#about h2 {
+    font-size: 2.5rem;
+    color: #333;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+#about p {
+    font-size: 1.2rem;
+    color: #777;
+    text-align: center;
+    margin-bottom: 4rem;
+}
+
+.experience h3 {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 1rem;
+}
+
+.experience .job {
+    margin-bottom: 2rem;
+}
+
+.experience .job h4 {
+    font-size: 1.2rem;
+    color: #555;
+}
+
+.experience .job p {
+    font-size: 1rem;
+    color: #777;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+}
